@@ -1,0 +1,8 @@
+/*
+    Author : Zachary Masson
+    File : assets/css/main/index.css
+    Description : 
+        - File to manage imports and the proper structuring of style files
+*/
+
+@import url("hero.css");

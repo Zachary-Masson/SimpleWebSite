@@ -1,0 +1,17 @@
+/*
+    Author : Zachary Masson
+    File : assets/css/style.css
+    Description : 
+        - File to manage imports and the proper structuring of style files
+*/
+
+@import url("_normalize.css");
+
+/* Header */
+@import url("header.css");
+
+/* Main */
+@import url("main/index.css");
+
+/* Footer */
+@import url("footer.css");

@@ -1,0 +1,63 @@
+/*
+    Author : Zachary Masson
+    File : assets/css/header.css
+    Description : 
+        - File for managing navigation bar css
+*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    
+    background-color: white;
+}
+
+header > h1 {
+    margin-left: 25px;
+
+    text-transform: uppercase;
+}
+
+/* NavBar */
+
+header > nav {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 25px;
+}
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: var(--text-primary);
+    border-bottom: 2px solid transparent;
+
+    transition: 0.3s all ease-in-out;
+}
+
+header > nav > ul > li:hover > a {
+    border-color: var(--text-primary);
+    transition: 0.3s all ease-in-out;
+}
+

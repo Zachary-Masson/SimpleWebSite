@@ -1,0 +1,17 @@
+/*
+    Author : Zachary Masson
+    File : assets/css/_normalize.css
+    Description : 
+        - File managing default style and variables
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Poppins";
+}
+
+:root {
+    --text-primary: black;
+}

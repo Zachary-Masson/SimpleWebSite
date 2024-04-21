@@ -1,0 +1,15 @@
+/*
+    Author : Zachary Masson
+    File : assets/css/main/hero.css
+    Description : 
+        - File managing the style in the main #hero section
+*/
+
+section#hero {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
